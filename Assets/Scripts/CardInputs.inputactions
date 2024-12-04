@@ -1,0 +1,34 @@
+{
+    "name": "CardInputs",
+    "maps": [
+        {
+            "name": "Inputs",
+            "id": "ae2ae934-8451-44a1-b3b5-35a4e969c938",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "70ac0f6a-dd6d-42ba-ad08-94ede5d57f33",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73e86fbf-7d4a-4f62-83cd-6f4eb917a1cc",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

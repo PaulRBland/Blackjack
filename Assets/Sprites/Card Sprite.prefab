@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7907149020032840557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8270235016227784928}
+  - component: {fileID: 5510387124925999324}
+  - component: {fileID: 5239927294797476322}
+  - component: {fileID: 3867459670648945461}
+  - component: {fileID: 2008015795256089794}
+  m_Layer: 0
+  m_Name: Card Sprite
+  m_TagString: Card
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8270235016227784928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907149020032840557}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.31, y: -2.2, z: 0}
+  m_LocalScale: {x: 4.4931, y: 4.4931, z: 4.4931}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5510387124925999324
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907149020032840557}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1709521599, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.20076923, y: 0.2611111}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &5239927294797476322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907149020032840557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 4d12a56a3cd4417458304591a334d009, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Inputs
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!61 &3867459670648945461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907149020032840557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.20076923, y: 0.2611111}
+    newSize: {x: 0.20076923, y: 0.2611111}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.20076923, y: 0.2611111}
+  m_EdgeRadius: 0
+--- !u!114 &2008015795256089794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907149020032840557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cfe96551035a54a8c8b02745991eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceSprite: {fileID: -1780890287, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  aceclub: {fileID: 1124532085, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  twoclub: {fileID: -1464039478, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  threeclub: {fileID: 1303331472, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fourclub: {fileID: 547825076, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fiveclub: {fileID: 877538482, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sixclub: {fileID: -1692172833, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sevclub: {fileID: 852034096, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  eigclub: {fileID: -656934945, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  ninclub: {fileID: -1721800756, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  tenclub: {fileID: -485870834, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  jackclub: {fileID: 1742809510, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  queenclub: {fileID: -1267963294, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  kingclub: {fileID: -1509969442, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  acediamond: {fileID: 1575983072, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  twodiamond: {fileID: -2017121184, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  threediamond: {fileID: -625493094, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fourdiamond: {fileID: -1454253339, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fivediamond: {fileID: 1408266615, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sixdiamond: {fileID: -339704309, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sevdiamond: {fileID: -242682954, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  eigdiamond: {fileID: 201817435, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  nindiamond: {fileID: 1312798786, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  tendiamond: {fileID: 1776287208, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  jackdiamond: {fileID: 203445031, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  queendiamond: {fileID: 523911870, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  kingdiamond: {fileID: 824467319, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  acespad: {fileID: -982436214, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  twospad: {fileID: -883265810, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  threespad: {fileID: -1661949699, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fourspad: {fileID: -1176333756, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fivespad: {fileID: -107137080, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sixspad: {fileID: 869100938, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sevspad: {fileID: 745506433, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  eigspad: {fileID: -1360374106, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  ninspad: {fileID: 1600666942, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  tenspad: {fileID: 2089582487, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  jackspad: {fileID: -498130872, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  queenspad: {fileID: 1316355728, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  kingspad: {fileID: -1488784597, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  aceheart: {fileID: -751971315, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  twoheart: {fileID: 1053644340, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  threeheart: {fileID: -398022687, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fourheart: {fileID: 324450227, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  fiveheart: {fileID: 1882287737, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sixheart: {fileID: -1534231740, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  sevheart: {fileID: -1180362831, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  eigheart: {fileID: -1331842638, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  ninheart: {fileID: -1859195725, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  tenheart: {fileID: -502698993, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  jackheart: {fileID: 317915324, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  queenheart: {fileID: -522369938, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  kingheart: {fileID: -1469513074, guid: 4b521c08f8515024e8f867212f718bf0, type: 3}
+  emptysprite: {fileID: 0}
+  speed: 0.25
